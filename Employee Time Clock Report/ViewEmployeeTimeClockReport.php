@@ -2,6 +2,7 @@
 /*
 Template Name: View Employee Time Clock Report
 */
+// The default layout to select a range of dates and times to view time clock reports
 get_header();
 require_once(dirname(dirname(__FILE__)) . '/connect.php');
 require_once(dirname(dirname(__FILE__)) . '/tables.php');
