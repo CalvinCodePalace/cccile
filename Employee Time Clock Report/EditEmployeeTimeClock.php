@@ -2,6 +2,7 @@
 /*
   Template Name: Edit EmployeeTimeClock
  */
+//Layout to edit time clock
 get_header();
 require_once(dirname(dirname(__FILE__)) . '/connect.php');
 require_once(dirname(dirname(__FILE__)) . "/connectpdo.php");
