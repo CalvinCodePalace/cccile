@@ -2,6 +2,7 @@
 /*
 Template Name: View Fire Inspection Report
 */
+// Used to view the fire inspection entries from the SQL database
 get_header();
 require_once(dirname(dirname(__FILE__)) . '/connect.php');
 require_once(dirname(dirname(__FILE__)) . '/tables.php');
