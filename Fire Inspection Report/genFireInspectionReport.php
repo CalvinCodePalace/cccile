@@ -3,6 +3,7 @@
 /*
 Template Name: genFireInspectionReport
 */
+// Generates fire inspection data once the date ranges are selected from View Fire Inspection Report
 require_once (dirname(dirname(__FILE__)). '/connect.php');
 require_once (dirname(dirname(__FILE__)). '/tables.php');
 require_once(dirname(dirname(__FILE__)) . "/connectpdo.php");
