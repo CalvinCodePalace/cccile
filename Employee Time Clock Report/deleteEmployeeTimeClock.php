@@ -1,5 +1,5 @@
 <?php
-
+// Helper file to delete time clock report
     require_once(dirname(dirname(__FILE__)) . "/connectpdo.php");
     $connection = connectPDO();
 
