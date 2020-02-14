@@ -3,6 +3,7 @@
 /*
 Template Name: Edit Fire Inspection
 */
+// Layout for editing the fire inspection
 get_header();
 require_once (dirname(dirname(__FILE__)). '/connect.php');
 require_once (dirname(dirname(__FILE__)). '/tables.php');
