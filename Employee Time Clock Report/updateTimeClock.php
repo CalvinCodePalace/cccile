@@ -4,6 +4,7 @@
     $connection = connectPDO();
 
 // Date of creation: 2020-10-01
+// Will update the time clock once edited changes are confirmed
 
 // Based on the entry_id of the page, it will insert the necesssary information needed to edit
 if (isset($_POST['id'])){
